@@ -1,2 +1,2 @@
 # HTML-repository
-This is everything I have done learning HTML
+This is everything I have done learning HTML and CSS.
