@@ -8,12 +8,37 @@ Developed @ One Month in NYC
 */
 
 body {
-	/*background: url('../images/cookie-monster.jpg');*/
 	/* the follow is the code to have the image display as a full page */
+	background: url('../images/cookie-monster.jpg') no-repeat center center fixed;
 	background-position: center;
 	background-attachment: fixed;
-	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-webkit-background-size: cover;
+	/* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+#container {
+	background: black;
+	width: 400px;
+	color: white;
+	padding: 15px;
+}
+
+h1 {
+	font-size: 8-px;
+}
+
+h2 {
+	font-size: 24px;
+	color: black;
+	background: #75c1f6;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: #75c1f6;
+	text-decoration: none;
 }
