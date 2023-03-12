@@ -25,9 +25,7 @@ body {
   margin: 0 auto;
 }
 
-.center-text {
-  text-align: center;
-}
+
 
 p {
   font-size: 16px;
@@ -56,25 +54,52 @@ h1, h2 {
 }
 
 h1 {
-
+  width: 200px;
   font-size: 32px;
+  padding-bottom: 30px;
 }
 
 h2 {
+  width: 250px;
   font-size: 32px;
+  padding-bottom: 30px;
 }
 
+/* make first image fit inside container */
 
+img {
+  max-width: 100%;
+  height: auto;
+
+}
 
 /*
  * Container Styles
 */
 
 .container {
-  width: 600px;
+  width: 400px;
   margin: 100px auto;
   background: #FFF;
+  margin: 0 auto;
 }
 
+.intro {
+  background-color: white;
+  width: 400px;
+  margin: 50px auto;
+}
 
+.intro p {
+  padding: 0 20px;
+}
 
+.contact {
+  background-color: lightgrey;
+  width: 400px;
+  padding: 50px;
+}
+
+.contact p {  
+  text-align: center;
+}
