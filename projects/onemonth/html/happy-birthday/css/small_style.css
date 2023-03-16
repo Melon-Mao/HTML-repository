@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+aside.right, aside.left {
+  text-align: center;
+  float: none;
+}
+
+.contact p {
+  text-align: center;
+}
+
+
+.hero img {
+  border-radius: 0;
+}
+
+.contact a {
+  /* Have a line break before */
+  display: block;
+}
