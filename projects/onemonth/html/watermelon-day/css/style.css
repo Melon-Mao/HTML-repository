@@ -1,0 +1,177 @@
+/* 
+*    Palette:
+*        Hex: #ad3838	RGB: (173,56,56)
+*        Hex: #db6161	RGB: (219,97,97)
+*        Hex: #f9f6f4	RGB: (249,246,244)
+*        Hex: #75b855	RGB: (117,184,85)
+*        Hex: #157241	RGB: (21,114,65)
+*        Source: https://www.color-hex.com/color-palette/2107
+*/
+
+/* 
+    * General Styles
+*/
+
+body {
+    /* background: #ddd; */
+    background: url(../images/watermelon-background.jpg), #ddd;
+    font-family: "Open Sans", arial, sans-serif;
+
+    /* Center and scale the image nicely */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+/* Affect all images except in the header class */
+img:not(.header) {
+    width: 8rem;
+}
+
+ol.num {
+    list-style-type: upper-roman;
+}
+
+/* Do not affect child elements */
+li {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+li span {
+    font-size: 1.25rem;
+}
+
+li span h3 {
+    font-size: 1.75rem;
+}
+
+/* 
+    * Container Styles
+*/
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 37.5rem;
+    margin: 6.25rem auto;
+    /* add black outline */
+    border: 0.25rem solid #000;
+    /* Make the outline rounded */
+    border-radius: 2rem 2rem 0 0;
+}
+
+.container section:not(:first-child) {
+    padding: 2rem;
+}
+
+/* Make every other section red starting from first */
+.container section:nth-child(2n-1) {
+    background-color: #db6161;
+    color: #157241;
+}
+
+/* Make every other section green starting from second */
+.container section:nth-child(2n) {
+    background-color: #75b855;
+    color: #ad3838;
+}
+
+/* Header Styles */
+
+.header {
+    padding: 2rem 0 0 0;
+    border-radius: 1.75rem 1.75rem 0 0;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* 
+    * Intro Styles
+*/
+
+/* 
+    * Time Styles
+*/
+
+/* 
+    * Facts Styles
+*/
+
+.facts {
+    overflow: hidden;
+}
+
+/* 
+  * Aside Styles
+*/
+
+aside {
+    margin-right: 1.5rem;
+    padding: 1rem;
+}
+
+aside.left {
+    float: left;
+}
+
+aside.right {
+    float: right;
+}
+
+/* 
+    * Footer Styles
+*/
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #157241;
+    color: #db6161;
+}
+
+footer a {
+    color: #f9f6f4;
+    text-decoration: none;
+}
